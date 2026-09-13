@@ -8,15 +8,14 @@ export const navLinks = [
 { label: 'About', to: '/about' },
 { label: 'Contact', to: '/contact' }];
 
-
 export const contactDetails = {
-  phone: '+94 77 123 4567',
-  phoneHref: 'tel:+94771234567',
-  whatsapp: '+94 77 123 4567',
-  whatsappHref: 'https://wa.me/94771234567',
-  email: 'hello@senehasa.lk',
-  emailHref: 'mailto:hello@senehasa.lk',
-  address: 'No. 42, Galle Road, Colombo 03, Sri Lanka',
+  phone: '+94 775383699',
+  phoneHref: 'tel:+94775383699',
+  whatsapp: '+94 775383699',
+  whatsappHref: 'https://wa.me/94775383699',
+  email: 'kisarawenuraka956@gmail.com',
+  emailHref: 'mailto:kisarawenuraka956@gmail.com',
+  address: 'Poddala,  Galle, Sri Lanka',
   hours: [
   { day: 'Monday – Friday', time: '7:00 AM – 8:00 PM' },
   { day: 'Saturday', time: '7:00 AM – 6:00 PM' },

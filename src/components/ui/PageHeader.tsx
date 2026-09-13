@@ -29,5 +29,4 @@ export function PageHeader({ eyebrow, title, description, children }: PageHeader
         </div>
       </div>
     </section>);
-
 }

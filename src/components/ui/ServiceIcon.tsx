@@ -1,6 +1,6 @@
 import React from "react";
-import { HeartHandshakeIcon, HandHelpingIcon, CarFrontIcon, RouteIcon, HeartPulseIcon, CompassIcon, StethoscopeIcon, ClipboardListIcon, PillIcon, LandmarkIcon, ShoppingBagIcon, Building2Icon, PlaneIcon, UsersIcon, FlowerIcon, ListChecksIcon, MapIcon, PalmtreeIcon, SparklesIcon, ShieldCheckIcon, LockKeyholeIcon, SlidersHorizontalIcon, GlobeIcon, MapPinIcon, BoxIcon } from "lucide-react";
-const iconMap: Record<string, BoxIcon> = {
+import { HeartHandshakeIcon, HandHelpingIcon, CarFrontIcon, RouteIcon, HeartPulseIcon, CompassIcon, StethoscopeIcon, ClipboardListIcon, PillIcon, LandmarkIcon, ShoppingBagIcon, Building2Icon, PlaneIcon, UsersIcon, FlowerIcon, ListChecksIcon, MapIcon, PalmtreeIcon, SparklesIcon, ShieldCheckIcon, LockKeyholeIcon, SlidersHorizontalIcon, GlobeIcon, MapPinIcon, type LucideIcon } from "lucide-react";
+const iconMap: Record<string, LucideIcon> = {
   hospital: HeartPulseIcon,
   hand: HandHelpingIcon,
   car: CarFrontIcon,

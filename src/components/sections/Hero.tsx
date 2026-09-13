@@ -9,12 +9,11 @@ const badges = [
 { icon: HeartHandshakeIcon, label: 'Trained assistance' },
 { icon: MapPinnedIcon, label: 'Island-wide' }];
 
-
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-cloud">
-      <div className="pointer-events-none absolute -right-24 -top-24 h-96 w-96 rounded-full bg-mist" />
-      <div className="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-5 py-14 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:py-24">
+      <div className="pointer-events-none absolute -top-24 h-96 w-96 rounded-full bg-mist" />
+      <div className="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-3 py-10 sm:px-8 sm:py-15 lg:grid-cols-2 lg:gap-16 lg:py-24 -top-12">
         <motion.div
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}

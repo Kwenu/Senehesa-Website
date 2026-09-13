@@ -7,7 +7,7 @@ export function FloatingContact() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-24 right-4 z-40 flex flex-col items-end gap-3 lg:bottom-6 lg:right-6">
+    <div className="fixed bottom-24 right-4 z-40 flex flex-col items-end gap-3 lg:bottom-35 lg:right-6">
       <AnimatePresence>
         {open &&
         <motion.div

@@ -9,8 +9,7 @@ export function WhyChoose({ tone = 'cloud' }: {tone?: 'white' | 'cloud' | 'mist'
       <SectionHeading
         eyebrow="Trust"
         title="Why Families Choose Senehasa"
-        description="We're not a ride service. We're the people your family can count on when you can't be there." />
-      
+        description="We're not a ride service. We're the people your family can count on when you can't be there." />      
 
       <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {trustPillars.map((pillar) =>
