@@ -25,8 +25,7 @@ export function Contact() {
       <PageHeader
         eyebrow="Contact"
         title="Talk to Senehasa."
-        description="Call, message or send us an inquiry — whichever is easiest from where you are." />
-      
+        description="Call, message or send us an inquiry - whichever is easiest from where you are." />
 
       <Section tone="white">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">

@@ -60,12 +60,12 @@ export function About() {
               </p>
               <p>
                 And across the world, there are sons and daughters who worry about exactly
-                that. They call every day, they send money for the taxi — but they cannot be
+                that. They call every day, they send money for the taxi - but they cannot be
                 there to hold an arm at the hospital steps.
               </p>
               <p>
                 Senehasa exists to close that distance. We arrange the vehicle, the driver
-                and the assistance, and we plan the whole day rather than a single ride —
+                and the assistance, and we plan the whole day rather than a single ride - 
                 so families overseas can organise real care from anywhere, and parents at
                 home are never left to manage alone.
               </p>

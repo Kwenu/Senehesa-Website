@@ -12,12 +12,12 @@ export const faqs: Faq[] = [
 {
   question: 'Can I book from another country?',
   answer:
-  'Yes — most of our customers do. You can plan and submit the entire journey online from anywhere in the world, and we will confirm with you by WhatsApp, email or a call at a time that suits your timezone.'
+  'Yes - most of our customers do. You can plan and submit the entire journey online from anywhere in the world, and we will confirm with you by WhatsApp, email or a call at a time that suits your timezone.'
 },
 {
   question: 'Can I add multiple destinations?',
   answer:
-  'Absolutely. A journey can include as many stops as needed — home, hospital, pharmacy, bank, supermarket and back home — all in one booking.'
+  'Absolutely. A journey can include as many stops as needed - home, hospital, pharmacy, bank, supermarket and back home - all in one booking.'
 },
 {
   question: 'Can you take my parent to a hospital appointment?',

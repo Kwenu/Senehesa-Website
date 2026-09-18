@@ -30,5 +30,4 @@ export function Home() {
       <WhyChoose tone="white" />
       <FinalCta />
     </>);
-
 }

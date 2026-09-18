@@ -9,7 +9,7 @@ export function VehiclesGrid({ tone = 'cloud' }: {tone?: 'white' | 'cloud' | 'mi
       <SectionHeading
         eyebrow="Comfort first"
         title="Choose the Right Vehicle"
-        description="Every vehicle is selected for easy access, comfort and a calm ride — not just for getting from A to B." />
+        description="Every vehicle is selected for easy access, comfort and a calm ride - not just for getting from A to B." />
       
 
       <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

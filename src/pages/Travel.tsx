@@ -35,7 +35,7 @@ export function Travel() {
       <PageHeader
         eyebrow="Travel & tourism"
         title="See Sri Lanka at Your Own Pace."
-        description="Private, comfortable transportation with drivers who know the roads — ideal for families travelling with elderly relatives or young children.">
+        description="Private, comfortable transportation with drivers who know the roads - ideal for families travelling with elderly relatives or young children.">
         
         <Button to="/plan" size="lg">
           Plan a Trip

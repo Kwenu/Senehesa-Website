@@ -26,7 +26,7 @@ export function ElderCare() {
       <PageHeader
         eyebrow="Elder care"
         title="Patient, Respectful Support for Your Parents."
-        description="Senehasa staff are trained to move at your parents' pace — calmly, kindly and with dignity, from the front gate and back again.">
+        description="Senehasa staff are trained to move at your parents' pace - calmly, kindly and with dignity, from the front gate and back again.">
         
         <Button to="/plan" size="lg">
           Arrange Care for Your Loved One

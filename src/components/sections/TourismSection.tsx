@@ -31,7 +31,7 @@ export function TourismSection({ tone = 'white' }: {tone?: 'white' | 'cloud' | '
           <div className="flex flex-col justify-center rounded-3xl bg-mist p-6">
             <p className="font-display text-2xl font-extrabold text-navy">Island-wide</p>
             <p className="mt-2 text-base text-ink/75">
-              Beaches, hill country, cultural sites and wildlife parks — with the same
+              Beaches, hill country, cultural sites and wildlife parks - with the same
               careful drivers.
             </p>
           </div>

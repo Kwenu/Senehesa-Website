@@ -19,7 +19,7 @@ export function DayJourney() {
             Plan Their Entire Day, Not Just a Ride.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-mist/85 sm:text-xl">
-            With Senehasa, you can arrange an entire day's journey from one place — pickup,
+            With Senehasa, you can arrange an entire day's journey from one place - pickup,
             appointments, errands and the trip back home, all in a single request.
           </p>
           <div className="mt-9">

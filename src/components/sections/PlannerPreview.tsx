@@ -27,7 +27,7 @@ export function PlannerPreview() {
       <SectionHeading
         eyebrow="Journey planner"
         title="Your Journey, Your Way."
-        description="Start building the journey here — you can finish every detail on the full planner." />
+        description="Start building the journey here - you can finish every detail on the full planner." />
       
 
       <div className="mt-12 grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">

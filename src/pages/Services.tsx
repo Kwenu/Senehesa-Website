@@ -12,7 +12,7 @@ export function Services() {
     <>
       <PageHeader
         eyebrow="Services"
-        title="Care, Assistance and Journeys — Arranged Together."
+        title="Care, Assistance and Journeys - Arranged Together."
         description="From a single clinic visit to a full day of errands, Senehasa plans the whole journey so your family doesn't have to piece it together.">
         
         <Button to="/plan" size="lg">

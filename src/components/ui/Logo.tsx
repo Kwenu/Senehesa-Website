@@ -16,21 +16,26 @@ export function Logo({
   const tagColor = inverted ? "text-mist/80" : "text-teal";
 
   return (
-    <span className={`flex items-center gap-2 ${className}`}>
+    <span
+      className={`flex items-center gap-2 sm:gap-3 ${className}`}
+    >
       <img
         src="/relogo1.png"
         alt="Senehasa Logo"
         aria-hidden="true"
-        className="h-15 w-15 shrink-0 sm:h-11 sm:w-11"
+        className="h-10 w-10 shrink-0 object-contain sm:h-11 sm:w-11"
       />
 
-      <span className="flex flex-col leading-none">
+      <span className="flex min-w-0 flex-col leading-none">
         <span
-          className={`font-display text-xl font-extrabold tracking-tight sm:text-2xl ${wordColor}`}>
+          className={`font-display text-lg font-extrabold tracking-tight sm:text-2xl ${wordColor}`}
+        >
           Senehasa
         </span>
+
         <span
-          className={`mt-1 text-[11px] font-semibold uppercase tracking-[0.18em] ${tagColor} ${taglineClassName}`}>
+          className={`mt-1 whitespace-nowrap text-[9px] font-semibold uppercase tracking-[0.12em] sm:text-[11px] sm:tracking-[0.18em] ${tagColor} ${taglineClassName}`}
+        >
           Care • Support • Trust
         </span>
       </span>

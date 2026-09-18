@@ -66,7 +66,6 @@ export const everydayServices = [
 { label: 'Airport Transfers', icon: 'plane' },
 { label: 'Family Visits', icon: 'users' },
 { label: 'Religious Visits', icon: 'flower' },
-{ label: 'Daily Errands', icon: 'list' },
 { label: 'Local Travel', icon: 'map' },
 { label: 'Tourism', icon: 'palm' },
 { label: 'Customized Trips', icon: 'sparkles' }] as

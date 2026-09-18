@@ -66,7 +66,6 @@ export function Faq() {
                   }
                 </AnimatePresence>
               </li>);
-
           })}
         </ul>
       </Section>
@@ -74,5 +73,4 @@ export function Faq() {
       <RecurringCare tone="cloud" />
       <FinalCta />
     </>);
-
 }

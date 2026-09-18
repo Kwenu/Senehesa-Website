@@ -44,7 +44,7 @@ export function Navbar() {
         className="mx-auto flex max-w-8xl items-center justify-between gap-3 px-5 py-4 sm:px-8 lg:gap-5"
       >
         <Link to="/" aria-label="Senehasa home" className="shrink-0">
-          <Logo taglineClassName="lg:hidden 2xl:block" />{" "}
+          <Logo taglineClassName="hidden sm:block lg:hidden 2xl:block" />
         </Link>
 
         <ul className="hidden min-w-0 flex-1 items-center justify-center gap-2 lg:flex xl:gap-5">

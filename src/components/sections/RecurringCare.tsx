@@ -17,7 +17,7 @@ export function RecurringCare({ tone = 'mist' }: {tone?: 'white' | 'cloud' | 'mi
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-ink/80">
             If your parents need the same journey every week or month, set it up once and
-            we'll handle the rest — same trusted driver wherever possible.
+            we'll handle the rest - same trusted driver wherever possible.
           </p>
           <div className="mt-8">
             <Button to="/plan" size="lg">

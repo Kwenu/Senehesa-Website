@@ -26,7 +26,7 @@ export function Footer() {
           <Logo inverted />
           <p className="mt-5 max-w-xs text-base leading-relaxed xl:text-[15px]">
             Elder care, assisted transportation and complete journey planning
-            across Sri Lanka — for families here and abroad.
+            across Sri Lanka - for families here and abroad.
           </p>
         </div>
 

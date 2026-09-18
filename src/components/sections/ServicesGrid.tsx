@@ -14,7 +14,7 @@ type ServicesGridProps = {
 
 export function ServicesGrid({
   title = 'Everything They Need, In One Journey.',
-  description = 'One trusted team for hospital visits, daily errands, assisted transport and travel — arranged together, not one ride at a time.',
+  description = 'One trusted team for hospital visits, daily errands, assisted transport and travel - arranged together, not one ride at a time.',
   tone = 'cloud'
 }: ServicesGridProps) {
   return (

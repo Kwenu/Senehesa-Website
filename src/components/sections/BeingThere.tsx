@@ -21,7 +21,6 @@ export function BeingThere() {
             alt="An elderly Sri Lankan couple on their veranda, speaking with their daughter on a video call"
             className="w-full rounded-4xl object-cover shadow-soft"
             loading="lazy" />
-          
         </div>
 
         <div className="order-1 lg:order-2">
@@ -38,7 +37,7 @@ export function BeingThere() {
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink/80">
             Senehasa helps you arrange safe transportation, personal assistance and
-            complete journeys for your loved ones in Sri Lanka — from anywhere in the
+            complete journeys for your loved ones in Sri Lanka - from anywhere in the
             world.
           </p>
 

@@ -24,7 +24,6 @@ const faqPreview = [
   'Yes. Contact us with your booking reference and we will update the stops, timings or vehicle.'
 }];
 
-
 export function HowItWorks() {
   return (
     <>
@@ -68,5 +67,4 @@ export function HowItWorks() {
       <WhyChoose tone="white" />
       <FinalCta />
     </>);
-
 }

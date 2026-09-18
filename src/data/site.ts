@@ -9,17 +9,17 @@ export const navLinks = [
 { label: 'Contact', to: '/contact' }];
 
 export const contactDetails = {
-  phone: '+94 775383699',
-  phoneHref: 'tel:+94775383699',
-  whatsapp: '+94 775383699',
-  whatsappHref: 'https://wa.me/94775383699',
-  email: 'kisarawenuraka956@gmail.com',
-  emailHref: 'mailto:kisarawenuraka956@gmail.com',
-  address: 'Poddala,  Galle, Sri Lanka',
+  phone: '+94 76 624 6767',
+  phoneHref: 'tel:+94766246767',
+  whatsapp: '+94 76 624 6767',
+  whatsappHref: 'https://wa.me/94766246767',
+  email: 'shiranthade@gmail.com',
+  emailHref: 'mailto:shiranthade@gmail.com',
+  address: 'No 11, Prime Ones, Haupegewatta, Poddala, Galle, Sri Lanka',
   hours: [
   { day: 'Monday – Friday', time: '7:00 AM – 8:00 PM' },
   { day: 'Saturday', time: '7:00 AM – 6:00 PM' },
-  { day: 'Sunday & Poya Days', time: '8:00 AM – 4:00 PM' }],
+  { day: 'Sunday & Poya Days', time: '8:00 AM – 6:00 PM' }],
 
   note: 'Journeys can be arranged outside these hours on request.'
 };

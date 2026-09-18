@@ -32,11 +32,21 @@ const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-const WHATSAPP_NUMBER = "94775383699";
+const WHATSAPP_NUMBER = "94766246767";
 
 function createReference() {
-  const digits = Math.floor(1000 + Math.random() * 9000);
   const year = new Date().getFullYear();
+
+  const storageKey = `senehasa_booking_sequence_${year}`;
+
+  const lastNumber = Number(localStorage.getItem(storageKey) || "0");
+
+  const nextNumber = lastNumber + 1;
+
+  localStorage.setItem(storageKey, String(nextNumber));
+
+  const digits = String(nextNumber).padStart(5, "0");
+
   return `SNH-${year}-${digits}`;
 }
 
@@ -132,11 +142,6 @@ export function JourneyPlanner() {
     });
   };
 
-  /*
-   * Creates the complete journey message.
-   * This same information is used for both
-   * WhatsApp and EmailJS.
-   */
   const createJourneyMessage = (bookingReference: string) => {
     const stopsText =
       booking.stops
@@ -220,9 +225,6 @@ Senehasa
 Care • Support • Trust`;
   };
 
-  /*
-   * Submit booking
-   */
   const submit = async () => {
     if (isSubmitting) return;
 
@@ -233,12 +235,6 @@ Care • Support • Trust`;
 
     const journeyMessage = createJourneyMessage(bookingReference);
 
-    /*
-     * Open WhatsApp immediately.
-     *
-     * Doing this before await helps prevent browsers
-     * from blocking the WhatsApp window as a popup.
-     */
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
       journeyMessage,
     )}`;
@@ -246,9 +242,7 @@ Care • Support • Trust`;
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
 
     try {
-      /*
-       * Send the booking through EmailJS
-       */
+
       await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
@@ -296,10 +290,6 @@ Notes: ${stop.notes || "None"}`,
         EMAILJS_PUBLIC_KEY,
       );
 
-      /*
-       * Email successfully sent.
-       * Now show the confirmation page.
-       */
       setReference(bookingReference);
 
       window.scrollTo({
@@ -309,11 +299,6 @@ Notes: ${stop.notes || "None"}`,
     } catch (error) {
       console.error("EmailJS error:", error);
 
-      /*
-       * WhatsApp has already been opened,
-       * so the booking details are still available
-       * even if email fails.
-       */
       setSubmitError(
         "We couldn't send the email automatically. Your journey details have been prepared for WhatsApp. Please contact Senehasa if you need assistance.",
       );
@@ -350,7 +335,7 @@ Notes: ${stop.notes || "None"}`,
       <PageHeader
         eyebrow="Journey planner"
         title="Plan a Journey"
-        description="Build the whole day in one request — pickup, every stop, the vehicle and the assistance your loved one needs."
+        description="Build the whole day in one request - pickup, every stop, the vehicle and the assistance your loved one needs."
       />
 
       <div className="bg-white py-10 sm:py-14">
