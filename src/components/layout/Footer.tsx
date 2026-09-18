@@ -109,11 +109,11 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-8xl flex-col gap-2 px-5 py-6 text-sm sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <div className="mx-auto flex max-w-8xl flex-col gap-2 px-5 pt-6 pb-24 text-sm sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:pb-24 lg:pb-6">
           <p>© {new Date().getFullYear()} Senehasa. All rights reserved.</p>
           <p>Care • Support • Trust</p>
-          <div className="flex items-center gap-2 ml-4">
-            <span className="text-m text-white-500">
+          <div className="flex items-center gap-2 ml-0 sm:ml-4">
+            <span className="text-sm text-white/70">
               Designed & Developed by
             </span>
             <a

@@ -8,7 +8,7 @@ export function MobileStickyCta() {
   if (pathname === '/plan') return null;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-navy/10 bg-white/95 px-4 py-3 backdrop-blur lg:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-navy/10 bg-white/95 px-4 py-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] backdrop-blur lg:hidden">
       <div className="flex items-center gap-3">
         <Link
           to="/plan"
